@@ -1,13 +1,16 @@
-##🗂️ Linux Directory Structure (Rooted at /)
+## 🗂️ Linux Directory Structure (Rooted at /)
 At the top of the Linux filesystem is the root directory: /
 
 Everything in Linux starts from / — even drives, devices, and temporary files.
 
 ## 🔧 System and Boot Directories
 Directory	Purpose
-/bin	Essential user binaries (e.g. ls, cp, mv) used in single-user mode
-/sbin	System binaries (e.g. fsck, reboot, iptables) used by root or services
+/bin	Essential user binaries (e.g. ls, cp, mv) used in single-user mode.
+
+/sbin	System binaries (e.g. fsck, reboot, iptables) used by root or services.
+
 /boot	Files needed for booting Linux, like the kernel (vmlinuz) and GRUB
+
 /lib, /lib64	Shared libraries needed by binaries in /bin and /sbin
 
 ## 👤 User and Configuration Directories
